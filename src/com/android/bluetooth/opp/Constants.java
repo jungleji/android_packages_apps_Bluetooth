@@ -207,7 +207,8 @@ public class Constants {
      * Today, restricted to images, audio, video and certain text types.
      */
     public static final String[] ACCEPTABLE_SHARE_INBOUND_TYPES = new String[] {
-        "image/*",
+        "*/*",
+        /*        "image/*",
         "video/*",
         "audio/*",
         "text/x-vcard",
@@ -225,7 +226,7 @@ public class Constants {
         "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet",
         "application/vnd.openxmlformats-officedocument.wordprocessingml.document",
         "application/vnd.openxmlformats-officedocument.presentationml.presentation",
-        "application/vnd.android.package-archive",
+        "application/vnd.android.package-archive", */
     };
 
     /**
